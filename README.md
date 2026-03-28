@@ -14,7 +14,7 @@ GeoAI educational materials for the [I-GUIDE](https://i-guide.io) platform. This
 | 06 | [Semantic Segmentation](notebooks/06-semantic-segmentation.md) | Pixel-level classification for land cover mapping, building detection, and water body extraction |
 | 07 | [Instance Segmentation](notebooks/07-instance-segmentation.md) | Delineate individual objects (e.g., agricultural fields) with Mask R-CNN |
 | 08 | [Image Translation](notebooks/08-image-translation.md) | Enhance Sentinel-2 imagery resolution using latent diffusion super-resolution |
-| 09 | [Object Detection (Advanced)](notebooks/09-object-detection.md) | Additional object detection workflows and architectures |
+| 09 | [Change Detection](notebooks/09-change-detection.md) | Detect building changes between multi-temporal NAIP imagery with ChangeStar |
 | 10 | [Pixel-Level Regression](notebooks/10-pixel-regression.md) | Predict continuous values (e.g., NDVI, canopy height) for every pixel |
 | 11 | [Segment Anything for Geospatial](notebooks/11-sam-geospatial.md) | Zero-shot segmentation with SAM 3 for geospatial applications |
 | 12 | [Vision-Language Models](notebooks/12-vision-language-models.md) | Image captioning, visual question answering, and object detection with VLMs |
