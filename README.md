@@ -1,6 +1,6 @@
 # I-GUIDE GeoAI Education
 
-GeoAI educational materials for the [I-GUIDE](https://i-guide.io) platform. This repository contains Jupyter notebook tutorials covering geospatial artificial intelligence workflows, from data acquisition through advanced deep learning tasks.
+GeoAI educational materials for the [I-GUIDE](https://platform.i-guide.io/contributor/b8736e79-e1e9-415c-813a-9b72e9361cb8) platform. This repository contains Jupyter notebook tutorials covering geospatial artificial intelligence workflows, from data acquisition through advanced deep learning tasks.
 
 ## Notebooks
 
@@ -22,11 +22,20 @@ GeoAI educational materials for the [I-GUIDE](https://i-guide.io) platform. This
 
 ## Installation
 
+### Selecting a kernel
+
+Open a notebook in I-GUIDE and select the `geoai-edu` kernel.
+
+![](https://github.com/user-attachments/assets/dc4bcd0a-e82c-4730-8de2-9082b3a78d19)
+
+### Installing packages
+
 All notebooks use the [geoai](https://opengeoai.org) Python package. Install it with:
 
 ```bash
-pip install geoai-py
+pip install -U "geoai-py[extra]"
 ```
+
 
 ## License
 
